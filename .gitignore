@@ -1,0 +1,7 @@
+creds*
+vlc.py
+pocketsphinx
+
+.idea/
+Would skip repository pocketsphinx/
+*.pyc
