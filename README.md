@@ -17,7 +17,10 @@ Make a note of these credentials you will be asked for them during the install p
 
 ### Installation
 
-Clone this repo
-`git clone https://github.com/artiya4u/Axela.git`
+Clone this repo to /opt/Axela
+
+`sudo git clone https://github.com/artiya4u/Axela.git /opt/Axela`
+
 Run the setup script
+
 `./setup.sh`
