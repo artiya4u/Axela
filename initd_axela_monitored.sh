@@ -16,7 +16,7 @@ case "$1" in
 start)
     echo "Starting Axela..."
     python /opt/Axela/main.py &
-    /opt/Axela/initd_axela_monitored.sh &
+    /opt/Axela//opt/Axela/monitorAxela.sh &
 ;;
 
 silent)
