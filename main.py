@@ -33,7 +33,7 @@ parser.add_option('-s', '--silent',
 parser.add_option('-d', '--debug',
                   dest="debug",
                   action="store_true",
-                  default=True,
+                  default=False,
                   help="display debug messages"
                   )
 
@@ -48,7 +48,7 @@ mc = Client(servers, debug=1)
 path = os.path.realpath(__file__).rstrip(os.path.basename(__file__))
 
 # Sphinx setup
-trigger_phrase = "Axela"
+trigger_phrase = "mom"
 
 sphinx_data_path = path + "pocketsphinx/"
 model_dir = sphinx_data_path + "/model/"
